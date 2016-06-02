@@ -3,6 +3,7 @@
   "scripts": {
     "test": "karma start test/config/karma.conf.js"
   },
+  "author": "perlou",
   "dependencies": {
     "angular": "^1.4.3",
     "todomvc-common": "^1.0.0",
