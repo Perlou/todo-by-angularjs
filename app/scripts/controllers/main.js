@@ -8,10 +8,7 @@
  * Controller of the todoByAngularjsApp
  */
 angular.module('todoByAngularjsApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+
+.controller('MainCtrl', [$scope, function($scope){
+	$scope.name = 'Perlou'
+}]);
